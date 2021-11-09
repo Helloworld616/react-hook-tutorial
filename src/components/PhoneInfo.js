@@ -28,8 +28,6 @@ const PhoneInfo = (props) => {
   }
 
   const handleToggleEdit = () => {
-    // console.log(form)
-
     const { info, onUpdate } = props;
 
     if (form.editing) {
